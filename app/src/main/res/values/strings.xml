@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PegraApp</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="phoneno">PhoneNo</string>
+    <string name="date">Date</string>
+    <string name="houseno">houseNo</string>
+    <string name="houseNo">houseNo</string>
+    <string name="phoneNo1">phoneNo</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="save">SAVE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="title_eg_water_electricity_etc">\'Title/ eg Water, Electricity...etc</string>
+    <string name="add_your_complain_here">Add your complain here</string>
+    <string name="description1">Description</string>
+    <string name="description2">Description</string>
+</resources>

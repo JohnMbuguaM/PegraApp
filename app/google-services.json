@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025917734380",
+    "firebase_url": "https://pegraapp.firebaseio.com",
+    "project_id": "pegraapp",
+    "storage_bucket": "pegraapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025917734380:android:4fbfee7bf2725c37",
+        "android_client_info": {
+          "package_name": "pegraAgency.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025917734380-rmh4aiigd8qdqa6iufmoqesueov9m1kc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "pegraAgency.app",
+            "certificate_hash": "e7150c51ac52b86c0c650ef5d9aff68b6071d109"
+          }
+        },
+        {
+          "client_id": "1025917734380-hh6ghlha80349nbtm70hhpj6krvn7uce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZDRf-dK5xNv94Ov_y-CcOPMalOGVU5u8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025917734380-hh6ghlha80349nbtm70hhpj6krvn7uce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
