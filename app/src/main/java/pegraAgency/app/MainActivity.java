@@ -20,10 +20,14 @@ public class MainActivity extends AppCompatActivity {
     private NoteAdapter adapter;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+
 
         setUpRecyclerView();
         FloatingActionButton fabNewNote = findViewById(R.id.button_Add_note);
@@ -37,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
 
     private void setUpRecyclerView() {
         Query query = notebookRef.orderBy("title", Query.Direction.DESCENDING);

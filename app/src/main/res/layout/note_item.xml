@@ -39,6 +39,7 @@
 
         <TextView
             android:id="@+id/text_view_description"
+            android:layout_marginTop="8dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/description2"
@@ -49,6 +50,7 @@
             android:id="@+id/text_view_PhoneNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
             android:layout_below="@id/text_view_description"
             android:text="@string/phoneNo1"
             android:textAppearance="@style/TextAppearance.AppCompat.Small" />

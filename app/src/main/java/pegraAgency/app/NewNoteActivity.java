@@ -27,6 +27,14 @@ public class NewNoteActivity extends AppCompatActivity {
         bSave = findViewById(R.id.buttonSave);
         bCancel = findViewById(R.id.buttonCancel);
 
+
+        bCancel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                noteCancel();
+            }
+        });
+
         bSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -45,7 +53,7 @@ public class NewNoteActivity extends AppCompatActivity {
 
         if(title.trim().isEmpty() || description.trim().isEmpty()) {
             Toast.makeText(this, "Please fill all the field before you save", Toast.LENGTH_LONG).show();
-            return;
+
         }else {
         CollectionReference notebookRef = FirebaseFirestore.getInstance()
                 .collection("Notebook");
@@ -55,4 +63,14 @@ public class NewNoteActivity extends AppCompatActivity {
         Toast.makeText(this, "Your complain has been send to Pegra Agency", Toast.LENGTH_LONG).show();
 
     }
-}}
+
+
+}
+    private void noteCancel (){
+        startActivity(new Intent(NewNoteActivity.this, MainActivity.class));
+        Toast.makeText(this, "Nothing was sent to the management", Toast.LENGTH_LONG).show();
+
+    }
+
+}
+
